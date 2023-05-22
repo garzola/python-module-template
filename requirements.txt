@@ -1,0 +1,15 @@
+build
+pip
+wheel
+
+ipdb
+black
+pytest
+pytest-cov
+mock
+
+
+sphinx
+
+
+# put your additional requirements below this line

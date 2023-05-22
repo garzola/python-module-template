@@ -1,0 +1,35 @@
+[project]
+name = "<< MODULE NAME>>-<< GITHUB USERNAME >>"
+version = "0.0.1"
+authors = [
+  { name="<< YOUR NAME >>", email="<< YOUR EMAIL ADDRESS >>" },
+]
+description = "<< SHORT MODULE DESCRIPTION >>"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = [<< SOME KEYWORDS >> ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    << DEPENDENCIES >>
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+pythonpath = [ 'src', ]
+
+
+[project.urls]
+"Homepage" = "https://github.com/<< GITHUB USERNAME >>/<< GITHUB REPO NAME >>"
+"Bug Tracker" = "https://github.com/<< GITHUB USERNAME >>/<< GITHUB REPO NAME >>/issues"
