@@ -2,7 +2,7 @@
 
 I created this template because I'm tired of trying to remember all of the correct settings, directory structure, files for a basic python module.  This repo is just a template that I use to get started.
 
-This module template works with PyPi and with pip.  You can find more information about Python packaging on [PyPi](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+This module template works with PyPi and with pip.  You can find more information at [PyPi Packaging](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
 # Using this template
 
@@ -66,7 +66,7 @@ dependencies = [
 
 Replace `<< GITHUB REPO NAME >>` with the repo URL -- the url noted in the "Create a new repo" step.
 
-You can add/edit/remove values to fit your needs.  You can find more information at [PyPi](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+You can add/edit/remove values to fit your needs.  You can find more information at [PyPi Packaging](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
 ## Edit README-template.md
 
@@ -113,7 +113,7 @@ At this point, you can start working on the module itself.
 
 ## Pip
 
-If you want to bring this module into a project directory from GitHub, use the following line in your requirements.txt file
+If you want to bring this module into a project directory from GitHub, use the following line (edit with your repo URI) in your requirements.txt file
 
 For HTTPS -- public repo:
 
