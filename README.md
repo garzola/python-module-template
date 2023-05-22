@@ -42,7 +42,7 @@ Delete the `workspace.code-workspace` if you do not use Visual Studio Code.  Rep
 
 ## Edit pyproject.toml
 
-Using your favorite editor, you will need to change values in the `pyproject.toml` file.  You can find out more about `pyproject.toml` at (PyPi)[https://packaging.python.org/en/latest/tutorials/packaging-projects/].
+Using your favorite editor, you will need to change values in the `pyproject.toml` file.  You can find out more about `pyproject.toml` at [PyPi Packaging](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
 
 Replace `<< MODULE NAME >>` with whatever you want to call your module.  This name needs to be a legal python module name.  You can check out [PEP 8](https://peps.python.org/pep-0008/#package-and-module-names) for more information about module names.
 
@@ -66,7 +66,7 @@ dependencies = [
 
 Replace `<< GITHUB REPO NAME >>` with the repo URL -- the url noted in the "Create a new repo" step.
 
-You can add/edit/remove values to fit your needs.  You can find more information at (PyPi)[https://packaging.python.org/en/latest/tutorials/packaging-projects/]
+You can add/edit/remove values to fit your needs.  You can find more information at [PyPi](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
 ## Edit README-template.md
 
