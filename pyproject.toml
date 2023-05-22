@@ -31,5 +31,5 @@ pythonpath = [ 'src', ]
 
 
 [project.urls]
-"Homepage" = "https://github.com/<< GITHUB USERNAME >>/<< GITHUB REPO NAME >>"
-"Bug Tracker" = "https://github.com/<< GITHUB USERNAME >>/<< GITHUB REPO NAME >>/issues"
+"Homepage" = "<< GITHUB REPO URL >>"
+"Bug Tracker" = "<< GITHUB REPO URL >>/issues"
